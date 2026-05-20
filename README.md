@@ -35,8 +35,8 @@ An AI-based real-time license plate detection system built using YOLOv8, OpenCV,
 
 - Trained YOLOv8 model for 100 epochs
 - Performance achieved:
-  - mAP@0.5 = 0.70
-  - mAP@0.5:0.95 = 0.50
+  - mAP@0.5 = 0.90
+  - mAP@0.5:0.95 = 0.54
 
 ---
 
