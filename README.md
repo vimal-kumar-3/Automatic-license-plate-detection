@@ -1,20 +1,50 @@
-#  Automatic License Plate Detection System
+# Automatic License Plate Detection using YOLOv8
 
-This project uses YOLO and Streamlit for real-time license plate detection on images and videos.
+An AI-based real-time license plate detection system built using YOLOv8, OpenCV, and Streamlit. The project detects vehicle license plates from images and videos using computer vision techniques.
 
-## Features
-- Real-time video detection
-- Image detection
-- Streamlit UI
-- YOLO object detection
+---
 
-## Technologies Used
+##  Features
+
+- Real-time license plate detection
+- Image and video processing
+- Streamlit web application
+- Bounding box visualization with confidence score
+
+---
+
+##  Technologies Used
+
 - Python
-- YOLO
+- PyTorch
+- YOLOv8
 - OpenCV
 - Streamlit
+- Computer Vision
 
-## Run Project
+---
+
+##  Dataset
+
+- Pre-annotated dataset containing 433 images
+- XML annotations converted into YOLO format for training
+
+---
+
+##  Model Training
+
+- Trained YOLOv8 model for 100 epochs
+- Performance achieved:
+  - mAP@0.5 = 0.90
+  - mAP@0.5:0.95 = 0.54
+
+---
+
+##  Run the Project
+
+### 1. Clone the Repository
 
 ```bash
-streamlit run app.py
+git clone https://github.com/vimal-kumar-3/Automatic-license-plate-detection.git
+
+
