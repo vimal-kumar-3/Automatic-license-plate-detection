@@ -8,7 +8,6 @@ An AI-based real-time license plate detection system built using YOLOv8, OpenCV,
 
 - Real-time license plate detection
 - Image and video processing
-- YOLOv8 custom object detection model
 - Streamlit web application
 - Bounding box visualization with confidence score
 
@@ -46,5 +45,6 @@ An AI-based real-time license plate detection system built using YOLOv8, OpenCV,
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/vimal-kumar-3/automatic-license-plate-detection.git
+git clone https://github.com/vimal-kumar-3/Automatic-license-plate-detection.git
+
 
